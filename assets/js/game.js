@@ -130,6 +130,7 @@ var endGame = function() {
   }
 };
 
+
 // go to shop between battles function
 var shop = function() {
   // ask player what they'd like to do
@@ -143,6 +144,7 @@ var shop = function() {
     case 'refill':
       if (playerMoney >= 7) {
         window.alert("Refilling player's health by 20 for 7 dollars.");
+
 
         // increase health and decrease money
         playerHealth = playerHealth + 20;
